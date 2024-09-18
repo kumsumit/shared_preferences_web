@@ -2,13 +2,9 @@ name: shared_preferences_web_integration_tests
 publish_to: none
 
 environment:
-<<<<<<< HEAD
-  sdk: ">=3.1.0 <4.0.0"
-  flutter: ">=3.13.0"
-=======
-  sdk: ">=3.2.0 <4.0.0"
-  flutter: ">=3.16.0"
->>>>>>> refs/remotes/origin/main
+  sdk: ^3.4.0
+  flutter: ">=3.22.0"
+
 
 dependencies:
   flutter:
@@ -17,7 +13,7 @@ dependencies:
     git: https://github.com/kumsumit/shared_preferences_platform_interface.git
   shared_preferences_web:
     path: ../
-  web: ^0.5.0
+  web: ^1.0.0
 
 dev_dependencies:
   flutter_test:
